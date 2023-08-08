@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/nov.css">
+    <title>Historia</title>
+</head>
+<body>
+    <header>
+        <section id="banner"> <img src="media/img/banner2.png"></section>
+        <section id="logo"> <img src="media/img/logo2.png"></section>
+        <section id="login">
+            <form id="form1" action="mostrar.php" method="get">
+
+                <legend>Acceso</legend>
+                <label for="nombre">Usuario:</label>
+                <input type="text" id="usuario" name="usuario" />
+                <br />
+                <label for="password">Passwrod:</label>
+                <input type="text" id="password" name="password" />
+                <input type="submit" value="Ingresar" class="centrado" />
+                <center><a href="registrar.php" target="_blank">Registrate</a></center>
+            </form>
+        </section>
+
+
+    </header>
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="autos.html">Ejercicios</a>
+        <a href="nov.html">Historia</a>
+        <a href="geo.html">Ubicacion</a>
+        <a href="https://es.123rf.com/imagenes-de-archivo/aves_exoticas.html">Wiki</a>
+        
+    </nav>
+    <main>
+        
+        
+        <article><br><br><br><br><br><h1>Pajaros Exoticos</h1><br><br>
+            <p>Los pájaros exóticos son aves llamativas y coloridas que se han vuelto populares como mascotas.</p>
+            <p>Sin embargo, también es importante proteger y conservar estas especies para garantizar su supervivencia.</p>
+        </article>
+        <div class="container-all">
+
+            <input type="radio" id="1" name="image-slide" hidden/>
+            <input type="radio" id="2" name="image-slide" hidden/>
+            <input type="radio" id="3" name="image-slide" hidden/>
+            <input type="radio" id="4" name="image-slide" hidden/>
+
+            <div class="slide">
+                <div class="item-slide">  
+                    <img src="media/img/car1.jpg">
+                </div>
+
+                <div class="item-slide">
+                    <img src="media/img/car2.jpg">
+                </div>
+
+                <div class="item-slide">
+                    <img src="media/img/car3.webp">
+                </div>
+
+                <div class="item-slide">
+                    <img src="media/img/car4.png">
+                </div>
+            </div>
+            <!-------------PAGINACION------------>
+            <div class="pagination">
+                <label for="1" class="pagination-item">
+                    <img src="media/img/car1.jpg" class="sli">
+                </label>
+                
+
+                <label for="2" class="pagination-item">
+                    <img src="media/img/car2.jpg" class="sli">
+                </label>
+
+                <label for="3" class="pagination-item" >
+                    <img src="media/img/car3.webp" class="sli">
+                </label>
+
+                <label for="4" class="pagination-item" >
+                    <img src="media/img/car4.png" class="sli">
+                </label>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <aside id="foot_izq">
+            <div id="redes">
+                <h3>Siguenos en:</h3>
+                <ul id="sociales">
+                    <li>
+                        <a href="http://www.facebook.com" target="_blank"><img src="./media/redes/facebook.png" alt="redes" width="25px" height="px"></a>
+                    </li>
+                    <li>
+                        <a href="http://www.youtube.com" target="_blank"><img src="./media/redes/youtube.png" alt="redes" width="25px" height="px"></a>
+                    </li>
+                    <li>
+                        <a href="http://www.twitter.com" target="_blank"><img src="./media/redes/gorjeo.png" alt="redes" width="25px" height="px"></a>
+                    </li>
+                    <li>
+                        <a href="http://www.instagram.com" target="_blank"><img src="./media/redes/instagram.png" alt="redes" width="25px" height="px"></a>
+                    </li>
+
+                </ul>
+            </div>
+        </aside>
+        <div id="qr">
+            <img src="media/redes/qr.png" alt="" width="50">
+        </div>
+        <aside id="foot_der">
+            <ul>
+                <strong> <h3>Contactanos</h3> </strong>
+                <li>Andres Daniel Melchor Mariscal</li>
+                <li>andres_daniel_mm@gmail.com</li>
+                <li>https://github.com/proyectos</li>
+                <li>Ciudad ju&aacute;rez, Chihuahua 2023</li>
+            </ul>
+        </aside>
+        
+                <div id="contenedor"></div>
+                <img src="img/8.jpg" alt="">
+        
+            </footer>
+            
+        </body>
+        </html>
